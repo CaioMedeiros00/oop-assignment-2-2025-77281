@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace oop_assignment_2_2025_000000.Models
+namespace oop_assignment_2_2025_77281.Models
 {
     public static class ExamQuestion_4
     {

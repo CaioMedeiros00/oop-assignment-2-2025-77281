@@ -2,6 +2,8 @@
 using Xunit;
 
 namespace oop_assignment_2.Tests
+
+    // QUESTION 1A
 {
     public class UnitTestQuestion_1
     {
@@ -16,6 +18,8 @@ namespace oop_assignment_2.Tests
             bool actual = ExamQuestion_1.IsValidIrishMobile(phoneNumber);
             Assert.Equal(expected, actual);
         }
+
+        //QUESTION 1B
 
         [Theory]
         [InlineData("Bronze", 1)]

@@ -6,6 +6,8 @@ using System.Text.RegularExpressions;
 
 namespace oop_assignment_2_2025_77281.Models
 {
+    //QUESTION 1A
+    
     public static class ExamQuestion_1
     {
         private static readonly Regex IrishMobileRegex = new Regex(@"^(?:083|085|089)\d{7}$", RegexOptions.Compiled);
@@ -18,7 +20,7 @@ namespace oop_assignment_2_2025_77281.Models
 
         }
         
-
+        //QUESTION 1B
 
         public static void Run()
         {
